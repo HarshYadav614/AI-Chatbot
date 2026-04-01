@@ -1,0 +1,29 @@
+# --- Core Orchestration ---
+langchain>=1.2.0
+langchain-community
+langchain-core>=1.1.0
+
+# --- Mistral Integration ---
+mistralai>=1.1.0
+langchain-mistralai>=1.1.2
+
+# --- Advanced Agents & Workflow ---
+langgraph>=1.1.0
+langchain-experimental
+
+# --- Vector Database & Embeddings (RAG) ---
+chromadb>=0.4.0
+sentence-transformers
+pypdf
+tiktoken
+
+# --- Environment & Security ---
+python-dotenv
+cryptography
+
+# --- Data & Utilities ---
+pandas
+numpy
+tqdm
+requests
+ipykernel
